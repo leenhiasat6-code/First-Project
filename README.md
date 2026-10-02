@@ -65,6 +65,7 @@ expense-tracker-starter/
 |
 │__ Web Images
 |
+|__ .gitignore
 |__ README.md
 
 ```
