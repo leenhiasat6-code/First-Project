@@ -453,8 +453,8 @@ function renderSummary(list) {
         0
     );
 
-    // Find lowest expense
-    const lowest = Math.min(
+    // Find highest expense
+    const highest = Math.max(
         ...list.map(function (expense) {
             return Number(expense.amount);
         })
